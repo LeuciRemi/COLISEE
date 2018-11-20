@@ -2,7 +2,7 @@
 <html lang="fr">
 <body>
 <div>
-    <h1> Projet Template  SIO SLAM </h1>
+    <h1> Projet Colisee SIO SLAM </h1>
 </div>
 </body>
 </html>
