@@ -1,6 +1,2 @@
-
-@extends('Colisee.resources.views.layouts.master')
-<div>
-
-</div>
+@extends('layouts.master')
 

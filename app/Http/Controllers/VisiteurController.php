@@ -28,11 +28,7 @@ class VisiteurController extends Controller {
 
     public function getLogin() {
         $erreur = "";
-<<<<<<< HEAD
-        return view ('formLogin', compact('erreur'));
-=======
         return view ('authentification/formLogin', compact('erreur'));
->>>>>>> Modification Estelle
     }
 }
 
