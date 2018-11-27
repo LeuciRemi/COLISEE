@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 use Request;
-use App\metier\Visiteur;
+use App\metier\Personnel;
 
-class VisiteurController extends Controller
+class PersonnelController extends Controller
 {
 
     /**

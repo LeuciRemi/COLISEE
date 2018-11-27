@@ -29,6 +29,7 @@ class Patient extends Model {
         if ($patient) {
             if ($patient->mdppatient == $pwd) {
                 Session::put('id', $patient->numpatient);
+                Session::put('role', 'patient');
                 $connected = true;
             }
         }

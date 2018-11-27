@@ -28,6 +28,7 @@ class Personnel extends Model {
         if ($personnel) {
             if ($personnel->mdpperso == $pwd) {
                 Session::put('id', $personnel->numperso);
+                Session::put('role', 'personnel');
                 $connected = true;
             }
         }
